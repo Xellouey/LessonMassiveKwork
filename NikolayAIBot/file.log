@@ -1,0 +1,165 @@
+2025-03-24 23:03:54,630 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-03-24 23:03:54,630 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f592d143610>
+2025-03-24 23:03:54,630 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f592d190400>, 3285453.763336151)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f592d143790>
+2025-04-03 17:10:18,906 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-03 17:10:18,907 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ff0707434f0>
+2025-04-03 17:10:18,907 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7ff07071b580>, 4128238.087336573)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7ff0707429e0>
+2025-04-03 18:05:39,484 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-03 18:05:39,484 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f6ac3d33490>
+2025-04-03 18:05:39,485 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f6ac3d0b820>, 4131558.669258103)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f6ac3d329b0>
+2025-04-09 14:27:51,630 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-09 14:27:51,631 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fb087b3e200>
+2025-04-09 14:27:51,631 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7fb087b96ce0>, 4636890.834021803)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7fb087b3f4f0>
+2025-04-11 17:04:16,479 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-11 17:04:16,480 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f7262f2e2f0>
+2025-04-11 17:04:16,480 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f7262f873a0>, 4819075.642486105)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f7262f2f5e0>
+2025-04-14 18:38:04,022 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-14 18:38:04,023 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f28ab742260>
+2025-04-15 21:02:56,739 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-15 21:02:56,740 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f20fb32e200>
+2025-04-15 21:02:56,740 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f20fb3a6800>, 5178995.955348514)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f20fb32f4f0>
+2025-04-16 19:02:46,833 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-16 19:02:46,834 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fb0edb3e110>
+2025-04-16 19:02:46,834 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7fb0edb178e0>, 5258186.043105277)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7fb0edb3f640>
+2025-04-16 19:08:28,527 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-16 19:08:28,527 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f0fe392e050>
+2025-04-16 19:08:28,527 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f0fe39078e0>, 5258527.716357955)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f0fe392f580>
+2025-04-16 19:14:41,072 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-16 19:14:41,072 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f6de932e0b0>
+2025-04-16 19:14:41,072 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f6de93078e0>, 5258900.233342518)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f6de932f5e0>
+2025-04-16 20:44:55,237 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-16 20:44:55,238 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f9b6d52e0e0>
+2025-04-16 20:44:55,238 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f9b6d5078e0>, 5264314.489213982)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f9b6d52f610>
+2025-04-30 18:58:20,790 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-30 18:58:20,791 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f1775332110>
+2025-04-30 18:58:20,791 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f17753ae860>, 6467519.960365522)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f17753334f0>
+2025-04-30 19:03:44,066 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-30 19:03:44,067 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f00a0532200>
+2025-04-30 19:03:44,067 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f00a050b580>, 6467843.272944254)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f00a05334f0>
+2025-04-30 19:18:42,321 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-30 19:18:42,322 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f6706936170>
+2025-04-30 19:18:42,322 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f670690f580>, 6468741.503725354)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f6706937550>
+2025-04-30 19:25:02,482 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-30 19:25:02,482 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7ff143d42230>
+2025-04-30 19:25:02,483 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7ff143dbe860>, 6469121.636443313)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7ff143d43520>
+2025-04-30 19:41:05,564 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-04-30 19:41:05,564 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f548793dff0>
+2025-04-30 19:41:05,564 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f54879be8c0>, 6470084.766318609)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f548793f3d0>
+2025-05-08 14:35:46,728 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-05-08 14:35:46,728 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f1a3d5b21d0>
+2025-05-08 14:35:46,729 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f1a3d132c20>, 7142965.925005953)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f1a3d5b34c0>
+2025-05-08 19:06:58,736 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-05-08 19:06:58,737 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f048b532200>
+2025-05-08 19:06:58,737 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f048b5aece0>, 7159237.930129162)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f048b5334f0>
+2025-05-08 19:11:01,397 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-05-08 19:11:01,398 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f67b3742290>
+2025-05-08 19:11:01,398 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f67b37bece0>, 7159480.552494602)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f67b3743580>
+2025-05-08 19:15:57,737 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-05-08 19:15:57,737 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f9a01546230>
+2025-05-08 19:15:57,738 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f9a015c2ce0>, 7159776.922226871)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f9a01547520>
+2025-05-08 19:28:10,136 - ERROR - asyncio - Future exception was never retrieved
+future: <Future finished exception=OperationalError('Connection closed')>
+psycopg2.OperationalError: Connection closed
+2025-05-08 19:28:10,137 - ERROR - asyncio - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fab9cb32140>
+2025-05-08 19:28:10,137 - ERROR - asyncio - Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7fab9cb0b580>, 7160509.326595407)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7fab9cb33520>

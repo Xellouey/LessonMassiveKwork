@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd ..
+path=`pwd`
+path_to_env="${path}/env"
+. $path_to_env/bin/activate
+nohup `while true; do python3 check.py; done` &

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pkill -f start_nikolayai
+pkill -f nikolayai.py

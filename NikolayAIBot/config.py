@@ -1,0 +1,11 @@
+#TOKEN = "7612097668:AAFSu1c9q2iUihXmXsAY4pC4VEpKK1QTxTE"
+TOKEN = "7715633156:AAE7uMjC_Zxr8xw2L3xLXrxeqaoTva5-HYg"
+
+CHAT_ID = -1002424620580
+ADMINS = [952644352, 494482943]
+
+DB_NAME = "nikolayai_db"
+DB_USER = "mk_user"
+DB_PASSWORD = "mk_user19f9f9kcmlkmjnkjnjkndfahhzzF"
+DB_HOST = 'localhost'
+DB_PORT = '5432'

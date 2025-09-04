@@ -1,0 +1,57 @@
+{
+    "join": {
+        "content_type": "text",
+        "text": "💎 КУРС ПО НЕЙРОСЕТЯМ! Для  получения уроков Авторизируйтесь 👇",
+        "caption": null,
+        "file_id": null,
+        "keyboard": null,
+        "delay": 0
+    },
+    "start": {
+        "content_type": "text",
+        "text": "Авторизовался? \n\n🎁 Вот первый подарок:",
+        "caption": null,
+        "file_id": null,
+        "keyboard": null,
+        "delay": 0
+    },
+    "step1": {
+        "content_type": "video",
+        "text": null,
+        "caption": null,
+        "file_id": "BAACAgIAAxkBAAIB5WfpgF58lF15bm94LFyt8VQZLBUhAAKDcAACbBZQS9liZBHKXhYiNgQ",
+        "keyboard": null,
+        "delay": 1
+    },
+    "step2": {
+        "content_type": "text",
+        "text": "👆👆Урок 0: Фотосессия при помощи нейросети за 5 минут\n\n🆘Если было полезно - ставь 🔥 и пиши в коментарии \"КАЙФ\" под по постом в канале!\n\nМы поймем что тебе понравился подарок и будем выкладывать больше полезного контента!\nhttps://t.me/c/2424620580/248\nhttps://t.me/c/2424620580/248\nhttps://t.me/c/2424620580/248",
+        "caption": null,
+        "file_id": null,
+        "keyboard": null,
+        "delay": 60
+    },
+    "step3": {
+        "content_type": "document",
+        "text": null,
+        "caption": "Посмотрели урок?\n\n📝Мы подготовили для вас <u>конспект</u> по freepic. Изучите, чтоб разбираться лучше👆",
+        "file_id": "BQACAgIAAxkBAAIFFmfpzFDrY2d6juGOHQ90F6mJ3f3eAAJudAACbBZQS-i9gHB5cQ-kNgQ",
+        "keyboard": null,
+        "delay": 40
+    },
+    "step5": {
+        "content_type": "video",
+        "text": null,
+        "caption": "💡Эти уроки будут вам полезны. Переходите смотреть👇👇👇",
+        "file_id": "BAACAgIAAxkBAAIFS2fp0IDR9_GKce1GubHuLtXZhNVYAAJ3dAACbBZQS5j8JzPzdwrjNgQ",
+        "keyboard": [
+            {
+                "Как оплатить Нейросети 💳": "https://t.me/c/2424620580/36"
+            },
+            {
+                "Как сделать трендовый рилс 😎": "https://t.me/c/2424620580/60"
+            }
+        ],
+        "delay": 0
+    }
+}

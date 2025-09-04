@@ -1,0 +1,57 @@
+{
+    "join": {
+        "content_type": "text",
+        "text": "💎 УРОКИ ПО НЕЙРОСЕТЯМ! Для  получения уроков Авторизируйтесь 👇",
+        "caption": null,
+        "file_id": null,
+        "keyboard": null,
+        "delay": 0
+    },
+    "start": {
+        "content_type": "text",
+        "text": "Авторизовался? \n\n🎁 Вот первый подарок:",
+        "caption": null,
+        "file_id": null,
+        "keyboard": null,
+        "delay": 0
+    },
+    "step1": {
+        "content_type": "video",
+        "text": null,
+        "caption": null,
+        "file_id": "BAACAgIAAxkBAAM0Z_7juiU1zgUHIdXsePjdP4SgYiwAAu13AAJCGflLwRb5yqTF3go2BA",
+        "keyboard": null,
+        "delay": 0
+    },
+    "step2": {
+        "content_type": "text",
+        "text": "👆👆Урок 0: Фотосессия при помощи нейросети за 5 минут",
+        "caption": null,
+        "file_id": null,
+        "keyboard": null,
+        "delay": 35
+    },
+    "step3": {
+        "content_type": "document",
+        "text": null,
+        "caption": "Посмотрели урок?\n\n📝Мы подготовили для вас <u>конспект</u> по freepic. Изучите, чтоб разбираться лучше👆",
+        "file_id": "BQACAgIAAxkBAANKZ_7kcUCsc5usESP5bxZ8wmj2BN8AAvB3AAJCGflLBs5wlRNR_nk2BA",
+        "keyboard": null,
+        "delay": 35
+    },
+    "step4": {
+        "content_type": "video",
+        "text": null,
+        "caption": "💡Эти уроки будут вам полезны. Переходите смотреть👇👇👇",
+        "file_id": "BAACAgIAAxkBAAOmZ_7mNKIPhsxMnZ4IINrr3ayveakAAvF3AAJCGflLHYQtS9HpkKE2BA",
+        "keyboard": [
+            {
+                "Как оплатить нейросети💳": "https://t.me/c/2424620580/36"
+            },
+            {
+                "Как сделать трендовый рилс 😎": "https://t.me/c/2424620580/60"
+            }
+        ],
+        "delay": 0
+    }
+}
