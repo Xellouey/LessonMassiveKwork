@@ -67,6 +67,11 @@ async def admin_command(message: Message, session: AsyncSession, admin):
 async def show_admin_menu(callback: CallbackQuery, session: AsyncSession, admin):
     """Показать главное меню администратора"""
     try:
+        # Проверяем, что admin не None
+        if not admin:
+            await callback.answer("❌ Ошибка доступа к администраторской панели")
+            return
+            
         admin_text = f"""
 🔧 <b>Административная панель</b>
 
@@ -192,11 +197,11 @@ async def show_broadcasts_menu(callback: CallbackQuery, session: AsyncSession):
 
 
 @router.callback_query(F.data == "admin_cancel")
-async def admin_cancel_action(callback: CallbackQuery, state: FSMContext):
+async def admin_cancel_action(callback: CallbackQuery, state: FSMContext, session: AsyncSession, admin):
     """Отмена текущего действия"""
     try:
         await state.clear()
-        await show_admin_menu(callback, None, None)
+        await show_admin_menu(callback, session, admin)
         await callback.answer("❌ Действие отменено")
         
     except Exception as e:

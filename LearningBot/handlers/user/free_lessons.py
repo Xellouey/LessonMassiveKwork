@@ -256,7 +256,6 @@ async def start_default_free_lesson(callback: CallbackQuery, session: AsyncSessi
         
         completion_keyboard = InlineKeyboardMarkup(inline_keyboard=[
             [InlineKeyboardButton(text="📚 Открыть каталог", callback_data="catalog")],
-            [InlineKeyboardButton(text="🏆 Мои достижения", callback_data="achievements")],
             [InlineKeyboardButton(text="🏠 Главное меню", callback_data="main_menu")]
         ])
         

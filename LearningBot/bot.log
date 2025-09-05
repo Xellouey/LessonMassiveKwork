@@ -8640,3 +8640,313 @@ FROM lessons ORDER BY lessons.created_at DESC
 2025-09-05 21:47:16,766 - root - INFO - ✅ Бот остановлен
 2025-09-05 21:47:16,767 - aiogram.dispatcher - INFO - Polling stopped for bot @aishoping_Bot id=8461093373 - 'AiShop'
 2025-09-05 21:47:16,770 - root - INFO - 👋 Получен сигнал остановки от пользователя
+2025-09-05 21:47:53,370 - root - INFO - 🔄 Запуск в режиме polling...
+2025-09-05 21:47:53,371 - root - INFO - 🚀 Запуск Learning Bot...
+2025-09-05 21:47:53,383 - root - INFO - ✅ База данных инициализирована
+2025-09-05 21:47:53,383 - root - INFO - ✅ Бот запущен и готов к работе!
+2025-09-05 21:47:53,384 - aiogram.dispatcher - INFO - Start polling
+2025-09-05 21:47:54,051 - aiogram.dispatcher - INFO - Run polling for bot @aishoping_Bot id=8461093373 - 'AiShop'
+2025-09-05 21:50:13,487 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:50:15,580 - aiogram.event - INFO - Update id=708445962 is handled. Duration 2128 ms by bot id=8461093373
+2025-09-05 21:50:16,913 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:50:18,237 - aiogram.event - INFO - Update id=708445963 is handled. Duration 1338 ms by bot id=8461093373
+2025-09-05 21:50:20,377 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:50:21,729 - aiogram.event - INFO - Update id=708445964 is handled. Duration 1366 ms by bot id=8461093373
+2025-09-05 21:50:31,652 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:50:33,299 - aiogram.event - INFO - Update id=708445965 is handled. Duration 1660 ms by bot id=8461093373
+2025-09-05 21:50:35,517 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:50:37,040 - aiogram.event - INFO - Update id=708445966 is handled. Duration 1535 ms by bot id=8461093373
+2025-09-05 21:53:15,378 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:17,500 - aiogram.event - INFO - Update id=708445967 is handled. Duration 2130 ms by bot id=8461093373
+2025-09-05 21:53:18,412 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:19,717 - aiogram.event - INFO - Update id=708445968 is handled. Duration 1319 ms by bot id=8461093373
+2025-09-05 21:53:20,355 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:21,765 - aiogram.event - INFO - Update id=708445969 is handled. Duration 1424 ms by bot id=8461093373
+2025-09-05 21:53:23,856 - services.user - INFO - User 897676474 action: main_menu (lesson: None)
+2025-09-05 21:53:25,242 - aiogram.event - INFO - Update id=708445970 is handled. Duration 1413 ms by bot id=8461093373
+2025-09-05 21:53:34,002 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:34,767 - aiogram.event - INFO - Update id=708445971 is handled. Duration 778 ms by bot id=8461093373
+2025-09-05 21:53:38,447 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:39,820 - aiogram.event - INFO - Update id=708445972 is handled. Duration 1388 ms by bot id=8461093373
+2025-09-05 21:53:41,947 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:43,377 - aiogram.event - INFO - Update id=708445973 is handled. Duration 1444 ms by bot id=8461093373
+2025-09-05 21:53:45,074 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:46,428 - aiogram.event - INFO - Update id=708445974 is handled. Duration 1372 ms by bot id=8461093373
+2025-09-05 21:53:47,530 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:49,050 - aiogram.event - INFO - Update id=708445975 is handled. Duration 1538 ms by bot id=8461093373
+2025-09-05 21:53:49,810 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:51,134 - aiogram.event - INFO - Update id=708445976 is handled. Duration 1337 ms by bot id=8461093373
+2025-09-05 21:53:52,775 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:54,216 - aiogram.event - INFO - Update id=708445977 is handled. Duration 1457 ms by bot id=8461093373
+2025-09-05 21:53:54,739 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:53:56,077 - aiogram.event - INFO - Update id=708445978 is handled. Duration 1351 ms by bot id=8461093373
+2025-09-05 21:53:56,469 - aiogram.event - INFO - Update id=708445979 is not handled. Duration 19 ms by bot id=8461093373
+2025-09-05 21:54:30,874 - aiogram.event - INFO - Update id=708445980 is not handled. Duration 20 ms by bot id=8461093373
+2025-09-05 21:54:33,649 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:54:33,649 - handlers.admin.main - ERROR - Ошибка при показе админ меню: 'NoneType' object has no attribute 'username'
+2025-09-05 21:54:36,973 - aiogram.event - INFO - Update id=708445981 is handled. Duration 3338 ms by bot id=8461093373
+2025-09-05 21:54:49,799 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:54:49,799 - handlers.admin.main - ERROR - Ошибка при показе админ меню: 'NoneType' object has no attribute 'username'
+2025-09-05 21:54:51,214 - aiogram.event - INFO - Update id=708445982 is handled. Duration 1430 ms by bot id=8461093373
+2025-09-05 21:56:47,225 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:56:47,225 - handlers.admin.main - ERROR - Ошибка при показе админ меню: 'NoneType' object has no attribute 'username'
+2025-09-05 21:56:49,339 - aiogram.event - INFO - Update id=708445983 is handled. Duration 2130 ms by bot id=8461093373
+2025-09-05 21:56:49,379 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:56:50,051 - aiogram.event - INFO - Update id=708445984 is handled. Duration 680 ms by bot id=8461093373
+2025-09-05 21:56:52,840 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 21:56:54,252 - aiogram.event - INFO - Update id=708445985 is handled. Duration 1421 ms by bot id=8461093373
+2025-09-05 21:58:22,472 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 21:58:23,974 - aiogram.event - INFO - Update id=708445986 is handled. Duration 1515 ms by bot id=8461093373
+2025-09-05 21:59:12,018 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 21:59:14,128 - aiogram.event - INFO - Update id=708445987 is handled. Duration 2124 ms by bot id=8461093373
+2025-09-05 21:59:16,755 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 21:59:18,027 - aiogram.event - INFO - Update id=708445988 is handled. Duration 1287 ms by bot id=8461093373
+2025-09-05 21:59:21,245 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 21:59:22,681 - aiogram.event - INFO - Update id=708445989 is handled. Duration 1458 ms by bot id=8461093373
+2025-09-05 21:59:29,061 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 21:59:30,378 - aiogram.event - INFO - Update id=708445990 is handled. Duration 1338 ms by bot id=8461093373
+2025-09-05 21:59:55,598 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 21:59:57,461 - aiogram.event - INFO - Update id=708445991 is handled. Duration 1875 ms by bot id=8461093373
+2025-09-05 22:00:04,430 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:00:05,874 - aiogram.event - INFO - Update id=708445992 is handled. Duration 1461 ms by bot id=8461093373
+2025-09-05 22:00:08,409 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:00:09,765 - aiogram.event - INFO - Update id=708445993 is handled. Duration 1371 ms by bot id=8461093373
+2025-09-05 22:00:26,625 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:00:26,637 - services.category - INFO - Обновлена категория: Ии (ID: 1)
+2025-09-05 22:00:29,484 - aiogram.event - INFO - Update id=708445994 is handled. Duration 2873 ms by bot id=8461093373
+2025-09-05 22:00:30,806 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:00:30,818 - services.category - INFO - Обновлена категория: Ии (ID: 1)
+2025-09-05 22:00:32,823 - aiogram.event - INFO - Update id=708445995 is handled. Duration 2031 ms by bot id=8461093373
+2025-09-05 22:00:35,600 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:00:36,890 - aiogram.event - INFO - Update id=708445996 is handled. Duration 1303 ms by bot id=8461093373
+2025-09-05 22:00:40,203 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:00:41,933 - aiogram.event - INFO - Update id=708445997 is handled. Duration 1750 ms by bot id=8461093373
+2025-09-05 22:00:51,991 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:00:52,006 - services.category - INFO - Создана категория: Дизайн (ID: 3)
+2025-09-05 22:00:52,659 - aiogram.event - INFO - Update id=708445998 is handled. Duration 684 ms by bot id=8461093373
+2025-09-05 22:00:55,659 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:00:57,137 - aiogram.event - INFO - Update id=708445999 is handled. Duration 1493 ms by bot id=8461093373
+2025-09-05 22:00:58,527 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:00:59,850 - aiogram.event - INFO - Update id=708446000 is handled. Duration 1331 ms by bot id=8461093373
+2025-09-05 22:01:03,059 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:01:04,439 - aiogram.event - INFO - Update id=708446001 is handled. Duration 1396 ms by bot id=8461093373
+2025-09-05 22:01:12,583 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:01:14,029 - aiogram.event - INFO - Update id=708446002 is handled. Duration 1459 ms by bot id=8461093373
+2025-09-05 22:01:23,015 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:01:23,659 - aiogram.event - INFO - Update id=708446003 is handled. Duration 656 ms by bot id=8461093373
+2025-09-05 22:01:40,060 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:01:41,524 - aiogram.event - INFO - Update id=708446004 is handled. Duration 1478 ms by bot id=8461093373
+2025-09-05 22:01:52,157 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:01:52,169 - services.category - INFO - Создана категория: Программирование (ID: 4)
+2025-09-05 22:01:52,170 - services.category - INFO - Создана новая категория: Программирование
+2025-09-05 22:01:52,825 - aiogram.event - INFO - Update id=708446005 is handled. Duration 682 ms by bot id=8461093373
+2025-09-05 22:01:58,028 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:01:59,635 - aiogram.event - INFO - Update id=708446006 is handled. Duration 1618 ms by bot id=8461093373
+2025-09-05 22:02:34,834 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:02:34,836 - handlers.admin.lessons - ERROR - 🚀 MEDIA HANDLER TRIGGERED: content_type=ContentType.VIDEO, step=content, expected_content=video, user_id=494482943
+2025-09-05 22:02:34,836 - handlers.admin.lessons - ERROR - MEDIA UPLOAD: Expected=video, Received=ContentType.VIDEO
+2025-09-05 22:02:34,836 - handlers.admin.lessons - ERROR - MEDIA UPLOAD: Video processed - file_id=BAACAgIAAxkBAAMvaLtB2eXOZnfRMOX_EiwyjmY0GzgAAqKHAAKeqdlJ0eWn9mpHqDY2BA, duration=33
+2025-09-05 22:02:34,837 - handlers.admin.lessons - ERROR - MEDIA UPLOAD: Data saved, calling finalize_lesson_creation
+2025-09-05 22:02:34,847 - services.lesson - INFO - Создан новый урок 9: Как сделать картинку
+2025-09-05 22:02:36,301 - aiogram.event - INFO - Update id=708446007 is handled. Duration 1481 ms by bot id=8461093373
+2025-09-05 22:02:39,956 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:02:41,368 - aiogram.event - INFO - Update id=708446008 is handled. Duration 1424 ms by bot id=8461093373
+2025-09-05 22:02:46,832 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:02:48,221 - aiogram.event - INFO - Update id=708446009 is handled. Duration 1408 ms by bot id=8461093373
+2025-09-05 22:02:55,076 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:02:56,443 - aiogram.event - INFO - Update id=708446010 is handled. Duration 1386 ms by bot id=8461093373
+2025-09-05 22:02:59,631 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:03:00,265 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:00,933 - aiogram.event - INFO - Update id=708446011 is handled. Duration 1321 ms by bot id=8461093373
+2025-09-05 22:03:01,552 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:03:02,331 - aiogram.event - INFO - Update id=708446012 is handled. Duration 2082 ms by bot id=8461093373
+2025-09-05 22:03:02,859 - aiogram.event - INFO - Update id=708446013 is handled. Duration 1320 ms by bot id=8461093373
+2025-09-05 22:03:02,999 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:03,978 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:03:04,446 - aiogram.event - INFO - Update id=708446014 is handled. Duration 1462 ms by bot id=8461093373
+2025-09-05 22:03:05,285 - aiogram.event - INFO - Update id=708446015 is handled. Duration 1321 ms by bot id=8461093373
+2025-09-05 22:03:05,813 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:07,244 - aiogram.event - INFO - Update id=708446016 is handled. Duration 1447 ms by bot id=8461093373
+2025-09-05 22:03:07,552 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:03:08,187 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:08,200 - services.lesson - INFO - Урок 3 жестко удален: 🚀 Создание премиального продукта
+2025-09-05 22:03:08,958 - aiogram.event - INFO - Update id=708446017 is handled. Duration 1415 ms by bot id=8461093373
+2025-09-05 22:03:09,517 - aiogram.event - INFO - Update id=708446018 is handled. Duration 1347 ms by bot id=8461093373
+2025-09-05 22:03:10,244 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:11,630 - aiogram.event - INFO - Update id=708446019 is handled. Duration 1394 ms by bot id=8461093373
+2025-09-05 22:03:11,772 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:13,096 - aiogram.event - INFO - Update id=708446020 is handled. Duration 1339 ms by bot id=8461093373
+2025-09-05 22:03:13,502 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:14,896 - aiogram.event - INFO - Update id=708446021 is handled. Duration 1412 ms by bot id=8461093373
+2025-09-05 22:03:15,255 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:15,265 - services.lesson - INFO - Урок 2 жестко удален: 💰 Финансовое мышление миллионера
+2025-09-05 22:03:17,195 - aiogram.event - INFO - Update id=708446022 is handled. Duration 1956 ms by bot id=8461093373
+2025-09-05 22:03:17,704 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:19,140 - aiogram.event - INFO - Update id=708446023 is handled. Duration 1445 ms by bot id=8461093373
+2025-09-05 22:03:19,530 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:20,852 - aiogram.event - INFO - Update id=708446024 is handled. Duration 1337 ms by bot id=8461093373
+2025-09-05 22:03:21,611 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:22,957 - aiogram.event - INFO - Update id=708446025 is handled. Duration 1362 ms by bot id=8461093373
+2025-09-05 22:03:23,362 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:23,374 - services.lesson - INFO - Урок 1 жестко удален: 🎁 Бесплатный урок: Введение в бизнес
+2025-09-05 22:03:24,710 - aiogram.event - INFO - Update id=708446026 is handled. Duration 1364 ms by bot id=8461093373
+2025-09-05 22:03:25,440 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:26,792 - aiogram.event - INFO - Update id=708446027 is handled. Duration 1366 ms by bot id=8461093373
+2025-09-05 22:03:27,877 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:29,219 - aiogram.event - INFO - Update id=708446028 is handled. Duration 1352 ms by bot id=8461093373
+2025-09-05 22:03:32,391 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:03:33,321 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:33,713 - aiogram.event - INFO - Update id=708446029 is handled. Duration 1332 ms by bot id=8461093373
+2025-09-05 22:03:35,780 - aiogram.event - INFO - Update id=708446030 is handled. Duration 2471 ms by bot id=8461093373
+2025-09-05 22:03:35,890 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:35,901 - services.lesson - INFO - Урок 5 жестко удален: Слала
+2025-09-05 22:03:37,258 - aiogram.event - INFO - Update id=708446031 is handled. Duration 1384 ms by bot id=8461093373
+2025-09-05 22:03:37,566 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:39,265 - aiogram.event - INFO - Update id=708446032 is handled. Duration 1709 ms by bot id=8461093373
+2025-09-05 22:03:39,621 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:40,253 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:03:40,909 - aiogram.event - INFO - Update id=708446033 is handled. Duration 1303 ms by bot id=8461093373
+2025-09-05 22:03:41,593 - aiogram.event - INFO - Update id=708446034 is handled. Duration 1350 ms by bot id=8461093373
+2025-09-05 22:03:41,751 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:43,099 - aiogram.event - INFO - Update id=708446035 is handled. Duration 1364 ms by bot id=8461093373
+2025-09-05 22:03:43,177 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:03:43,832 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:43,846 - services.lesson - INFO - Урок 4 жестко удален: Тест
+2025-09-05 22:03:44,577 - aiogram.event - INFO - Update id=708446036 is handled. Duration 1413 ms by bot id=8461093373
+2025-09-05 22:03:45,134 - aiogram.event - INFO - Update id=708446037 is handled. Duration 1319 ms by bot id=8461093373
+2025-09-05 22:03:45,426 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:46,619 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:03:46,826 - aiogram.event - INFO - Update id=708446038 is handled. Duration 1409 ms by bot id=8461093373
+2025-09-05 22:03:47,368 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:48,058 - aiogram.event - INFO - Update id=708446039 is handled. Duration 1447 ms by bot id=8461093373
+2025-09-05 22:03:49,098 - aiogram.event - INFO - Update id=708446040 is handled. Duration 1741 ms by bot id=8461093373
+2025-09-05 22:03:49,330 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:50,849 - aiogram.event - INFO - Update id=708446041 is handled. Duration 1533 ms by bot id=8461093373
+2025-09-05 22:03:51,127 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:51,138 - services.lesson - INFO - Урок 6 жестко удален: Тест
+2025-09-05 22:03:52,603 - aiogram.event - INFO - Update id=708446042 is handled. Duration 1488 ms by bot id=8461093373
+2025-09-05 22:03:52,869 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:54,253 - aiogram.event - INFO - Update id=708446043 is handled. Duration 1399 ms by bot id=8461093373
+2025-09-05 22:03:55,165 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:56,524 - aiogram.event - INFO - Update id=708446044 is handled. Duration 1368 ms by bot id=8461093373
+2025-09-05 22:03:57,054 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:58,514 - aiogram.event - INFO - Update id=708446045 is handled. Duration 1476 ms by bot id=8461093373
+2025-09-05 22:03:58,763 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:03:58,775 - services.lesson - INFO - Урок 7 жестко удален: Kkk
+2025-09-05 22:04:00,080 - aiogram.event - INFO - Update id=708446046 is handled. Duration 1334 ms by bot id=8461093373
+2025-09-05 22:04:00,146 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-05 22:04:00,827 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:01,664 - aiogram.event - INFO - Update id=708446047 is handled. Duration 1550 ms by bot id=8461093373
+2025-09-05 22:04:02,335 - aiogram.event - INFO - Update id=708446048 is handled. Duration 1523 ms by bot id=8461093373
+2025-09-05 22:04:02,616 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:03,966 - aiogram.event - INFO - Update id=708446049 is handled. Duration 1365 ms by bot id=8461093373
+2025-09-05 22:04:04,256 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:05,918 - aiogram.event - INFO - Update id=708446050 is handled. Duration 1673 ms by bot id=8461093373
+2025-09-05 22:04:05,937 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:05,947 - services.lesson - INFO - Урок 8 жестко удален: Ш
+2025-09-05 22:04:07,301 - aiogram.event - INFO - Update id=708446051 is handled. Duration 1381 ms by bot id=8461093373
+2025-09-05 22:04:08,065 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:09,400 - aiogram.event - INFO - Update id=708446052 is handled. Duration 1351 ms by bot id=8461093373
+2025-09-05 22:04:11,426 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:12,095 - aiogram.event - INFO - Update id=708446053 is handled. Duration 684 ms by bot id=8461093373
+2025-09-05 22:04:13,791 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:14,441 - aiogram.event - INFO - Update id=708446054 is handled. Duration 666 ms by bot id=8461093373
+2025-09-05 22:04:16,433 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:17,226 - aiogram.event - INFO - Update id=708446055 is handled. Duration 805 ms by bot id=8461093373
+2025-09-05 22:04:21,579 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:21,584 - services.category - INFO - Найдена существующая категория: Дизайн
+2025-09-05 22:04:22,249 - aiogram.event - INFO - Update id=708446056 is handled. Duration 683 ms by bot id=8461093373
+2025-09-05 22:04:26,408 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:27,881 - aiogram.event - INFO - Update id=708446057 is handled. Duration 1490 ms by bot id=8461093373
+2025-09-05 22:04:31,299 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:31,301 - handlers.admin.lessons - ERROR - 🚀 MEDIA HANDLER TRIGGERED: content_type=ContentType.PHOTO, step=content, expected_content=photo, user_id=897676474
+2025-09-05 22:04:31,301 - handlers.admin.lessons - ERROR - MEDIA UPLOAD: Expected=photo, Received=ContentType.PHOTO
+2025-09-05 22:04:31,302 - handlers.admin.lessons - ERROR - MEDIA UPLOAD: Photo processed - file_id=AgACAgIAAxkBAAM5aLtCTtJBav5I4DaKKookYn5MEtAAAt77MRtNddhJLibjUwQMbaoBAAMCAAN5AAM2BA
+2025-09-05 22:04:31,302 - handlers.admin.lessons - ERROR - MEDIA UPLOAD: Data saved, calling finalize_lesson_creation
+2025-09-05 22:04:31,311 - services.lesson - INFO - Создан новый урок 10: Тест
+2025-09-05 22:04:31,969 - aiogram.event - INFO - Update id=708446058 is handled. Duration 684 ms by bot id=8461093373
+2025-09-05 22:04:33,270 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:04:34,579 - aiogram.event - INFO - Update id=708446059 is handled. Duration 1318 ms by bot id=8461093373
+2025-09-05 22:04:36,830 - services.user - INFO - User 897676474 action: main_menu (lesson: None)
+2025-09-05 22:04:38,320 - aiogram.event - INFO - Update id=708446060 is handled. Duration 1524 ms by bot id=8461093373
+2025-09-05 22:04:38,446 - services.user - INFO - User 897676474 action: view_catalog (lesson: None)
+2025-09-05 22:04:39,939 - aiogram.event - INFO - Update id=708446061 is handled. Duration 1524 ms by bot id=8461093373
+2025-09-05 22:04:41,630 - services.user - INFO - User 897676474 action: view_category (lesson: None)
+2025-09-05 22:04:43,079 - aiogram.event - INFO - Update id=708446062 is handled. Duration 1474 ms by bot id=8461093373
+2025-09-05 22:04:45,902 - services.user - INFO - User 897676474 action: view_catalog (lesson: None)
+2025-09-05 22:04:47,341 - aiogram.event - INFO - Update id=708446063 is handled. Duration 1472 ms by bot id=8461093373
+2025-09-05 22:04:56,009 - aiogram.dispatcher - INFO - Polling stopped
+2025-09-05 22:04:56,010 - root - INFO - 🛑 Остановка Learning Bot...
+2025-09-05 22:04:56,012 - root - INFO - ✅ Соединение с базой данных закрыто
+2025-09-05 22:04:56,012 - root - INFO - ✅ Бот остановлен
+2025-09-05 22:04:56,126 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2775)
+2025-09-05 22:04:56,127 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8461093373)
+2025-09-05 22:04:56,265 - root - INFO - 🛑 Остановка Learning Bot...
+2025-09-05 22:04:56,266 - root - INFO - ✅ Соединение с базой данных закрыто
+2025-09-05 22:04:56,267 - root - INFO - ✅ Бот остановлен
+2025-09-05 22:04:56,268 - aiogram.dispatcher - INFO - Polling stopped for bot @aishoping_Bot id=8461093373 - 'AiShop'
+2025-09-05 22:04:56,270 - root - INFO - 👋 Получен сигнал остановки от пользователя
+2025-09-05 22:05:06,317 - root - INFO - 🔄 Запуск в режиме polling...
+2025-09-05 22:05:06,318 - root - INFO - 🚀 Запуск Learning Bot...
+2025-09-05 22:05:06,330 - root - INFO - ✅ База данных инициализирована
+2025-09-05 22:05:06,331 - root - INFO - ✅ Бот запущен и готов к работе!
+2025-09-05 22:05:06,331 - aiogram.dispatcher - INFO - Start polling
+2025-09-05 22:05:07,000 - aiogram.dispatcher - INFO - Run polling for bot @aishoping_Bot id=8461093373 - 'AiShop'
+2025-09-05 22:05:15,686 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:17,156 - aiogram.event - INFO - Update id=708446064 is handled. Duration 1499 ms by bot id=8461093373
+2025-09-05 22:05:18,664 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:19,971 - aiogram.event - INFO - Update id=708446065 is handled. Duration 1321 ms by bot id=8461093373
+2025-09-05 22:05:20,757 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:22,127 - aiogram.event - INFO - Update id=708446066 is handled. Duration 1383 ms by bot id=8461093373
+2025-09-05 22:05:22,420 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:23,755 - aiogram.event - INFO - Update id=708446067 is handled. Duration 1347 ms by bot id=8461093373
+2025-09-05 22:05:23,969 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:25,292 - aiogram.event - INFO - Update id=708446068 is handled. Duration 1335 ms by bot id=8461093373
+2025-09-05 22:05:25,872 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:27,172 - aiogram.event - INFO - Update id=708446069 is handled. Duration 1318 ms by bot id=8461093373
+2025-09-05 22:05:27,477 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:27,489 - services.category - INFO - Удалена категория: Ро (ID: 2)
+2025-09-05 22:05:29,485 - aiogram.event - INFO - Update id=708446070 is handled. Duration 2032 ms by bot id=8461093373
+2025-09-05 22:05:30,373 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:31,755 - aiogram.event - INFO - Update id=708446071 is handled. Duration 1400 ms by bot id=8461093373
+2025-09-05 22:05:32,300 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:33,602 - aiogram.event - INFO - Update id=708446072 is handled. Duration 1320 ms by bot id=8461093373
+2025-09-05 22:05:33,730 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:33,740 - services.category - INFO - Удалена категория: Ии (ID: 1)
+2025-09-05 22:05:35,653 - aiogram.event - INFO - Update id=708446073 is handled. Duration 1941 ms by bot id=8461093373
+2025-09-05 22:05:37,764 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:39,210 - aiogram.event - INFO - Update id=708446074 is handled. Duration 1457 ms by bot id=8461093373
+2025-09-05 22:05:39,908 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:41,317 - aiogram.event - INFO - Update id=708446075 is handled. Duration 1423 ms by bot id=8461093373
+2025-09-05 22:05:41,497 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:05:42,796 - aiogram.event - INFO - Update id=708446076 is handled. Duration 1306 ms by bot id=8461093373
+2025-09-05 22:05:42,933 - services.user - INFO - User 897676474 action: main_menu (lesson: None)
+2025-09-05 22:05:44,354 - aiogram.event - INFO - Update id=708446077 is handled. Duration 1447 ms by bot id=8461093373
+2025-09-05 22:05:44,836 - services.user - INFO - User 897676474 action: view_catalog (lesson: None)
+2025-09-05 22:05:46,341 - aiogram.event - INFO - Update id=708446078 is handled. Duration 1532 ms by bot id=8461093373
+2025-09-05 22:05:46,733 - services.user - INFO - User 897676474 action: main_menu (lesson: None)
+2025-09-05 22:05:48,086 - aiogram.event - INFO - Update id=708446079 is handled. Duration 1385 ms by bot id=8461093373
+2025-09-05 22:05:48,162 - services.user - INFO - User 897676474 action: view_free_lessons (lesson: None)
+2025-09-05 22:05:49,688 - aiogram.event - INFO - Update id=708446080 is handled. Duration 1553 ms by bot id=8461093373
+2025-09-05 22:05:55,590 - services.user - INFO - User 897676474 action: start_default_free_lesson (lesson: None)
+2025-09-05 22:05:57,101 - aiogram.event - INFO - Update id=708446081 is handled. Duration 1537 ms by bot id=8461093373
+2025-09-05 22:11:03,159 - services.user - INFO - User 494482943 action: start_command (lesson: None)
+2025-09-05 22:11:04,740 - handlers.user.start - INFO - Пользователь 494482943 (egorbannikov) зарегистрирован
+2025-09-05 22:11:04,741 - aiogram.event - INFO - Update id=708446082 is handled. Duration 1600 ms by bot id=8461093373
+2025-09-05 22:11:28,366 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:11:29,874 - aiogram.event - INFO - Update id=708446083 is handled. Duration 1520 ms by bot id=8461093373
+2025-09-05 22:11:39,847 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:11:41,554 - aiogram.event - INFO - Update id=708446084 is handled. Duration 1721 ms by bot id=8461093373
+2025-09-05 22:11:44,832 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:11:46,128 - aiogram.event - INFO - Update id=708446085 is handled. Duration 1316 ms by bot id=8461093373
+2025-09-05 22:22:25,164 - aiogram.dispatcher - INFO - Polling stopped
+2025-09-05 22:22:25,164 - root - INFO - 🛑 Остановка Learning Bot...
+2025-09-05 22:22:25,166 - root - INFO - ✅ Соединение с базой данных закрыто
+2025-09-05 22:22:25,166 - root - INFO - ✅ Бот остановлен
+2025-09-05 22:22:25,217 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2775)
+2025-09-05 22:22:25,218 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8461093373)
+2025-09-05 22:22:25,433 - root - INFO - 🛑 Остановка Learning Bot...
+2025-09-05 22:22:25,435 - root - INFO - ✅ Соединение с базой данных закрыто
+2025-09-05 22:22:25,436 - root - INFO - ✅ Бот остановлен
+2025-09-05 22:22:25,436 - aiogram.dispatcher - INFO - Polling stopped for bot @aishoping_Bot id=8461093373 - 'AiShop'
+2025-09-05 22:22:25,438 - root - INFO - 👋 Получен сигнал остановки от пользователя

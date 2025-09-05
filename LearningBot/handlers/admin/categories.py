@@ -13,6 +13,7 @@ from keyboards.admin import (
     categories_list_keyboard,
     category_edit_keyboard,
     confirm_action_keyboard,
+    simple_confirmation_keyboard,
     back_to_admin_keyboard
 )
 from states.admin import CategoryManagementStates
@@ -335,7 +336,7 @@ async def confirm_category_deletion(callback: CallbackQuery, session: AsyncSessi
         
         await callback.message.edit_text(
             confirm_text,
-            reply_markup=confirm_action_keyboard(f"confirm_delete_category:{category_id}", "admin_categories_list")
+            reply_markup=simple_confirmation_keyboard(f"confirm_delete_category:{category_id}", "admin_categories_list")
         )
         await callback.answer()
         
