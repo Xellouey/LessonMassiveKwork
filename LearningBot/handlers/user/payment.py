@@ -18,74 +18,121 @@ logger = logging.getLogger(__name__)
 router = Router()
 
 
-@router.callback_query(F.data.startswith("pay:"))
-async def process_payment(callback: CallbackQuery, session: AsyncSession, state: FSMContext):
-    """Обработка инициации платежа"""
+@router.callback_query(F.data.startswith("buy_lesson:"))
+async def initiate_lesson_purchase(callback: CallbackQuery, session: AsyncSession):
+    """Инициация покупки урока с выбором способа оплаты"""
     try:
-        # Парсинг callback_data: pay:lesson_id:price_stars
-        data_parts = callback.data.split(":")
-        if len(data_parts) != 3:
-            await callback.answer("❌ Некорректные данные платежа")
+        lesson_id = int(callback.data.split(":")[1])
+        
+        lesson_service = LessonService(session)
+        lesson = await lesson_service.get_lesson_by_id(lesson_id)
+        
+        if not lesson:
+            await callback.answer("❌ Урок не найден")
             return
         
-        lesson_id = int(data_parts[1])
-        expected_price = int(data_parts[2])
+        if lesson.is_free:
+            await callback.answer("❌ Этот урок бесплатный")
+            return
         
-        payment_service = PaymentService(session, callback.bot)
-        user_service = UserService(session)
-        
-        # Валидация платежных данных
-        is_valid, error_msg, lesson_data = await payment_service.validate_payment_data(
+        # Проверяем, не купил ли уже пользователь этот урок
+        has_access = await lesson_service.check_user_has_lesson(
             callback.from_user.id, 
             lesson_id
         )
         
-        if not is_valid:
-            await callback.answer(f"❌ {error_msg}")
+        if has_access:
+            await callback.answer("✅ Урок уже приобретен")
             return
         
-        # Дополнительная проверка цены
-        if lesson_data["price_stars"] != expected_price:
-            await callback.answer("❌ Цена урока изменилась, обновите информацию")
-            return
+        from services.currency import CurrencyService
+        usd_price = CurrencyService.format_usd_price(lesson.price_usd)
         
-        # Логирование попытки оплаты
-        await user_service.log_user_activity(
-            callback.from_user.id, 
-            "payment_initiated", 
-            lesson_id=lesson_id,
-            extra_data=f"price:{expected_price}"
+        # Показываем окно выбора способа оплаты
+        payment_selection_text = f"""
+💳 <b>Оплата урока</b>
+
+📚 <b>Урок:</b> {lesson.title}
+💰 <b>Цена:</b> {usd_price}
+
+🔄 <b>Выберите способ оплаты:</b>
+
+<i>После выбора способа оплаты будет создан инвойс с автоматической конвертацией в соответствующую валюту.</i>
+"""
+        
+        from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+        payment_methods_keyboard = InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(
+                text="⭐ Telegram Stars", 
+                callback_data=f"pay_stars:{lesson_id}"
+            )],
+            [InlineKeyboardButton(
+                text="🔙 Назад к уроку", 
+                callback_data=f"lesson:{lesson_id}"
+            )],
+            [InlineKeyboardButton(
+                text="📚 К каталогу", 
+                callback_data="catalog"
+            )]
+        ])
+        
+        await callback.message.edit_text(
+            payment_selection_text,
+            reply_markup=payment_methods_keyboard
         )
+        await callback.answer()
         
-        # Создание инвойса
+    except (ValueError, IndexError):
+        await callback.answer("❌ Некорректный ID урока")
+    except Exception as e:
+        logger.error(f"Ошибка при инициации покупки: {e}")
+        await callback.answer("❌ Произошла ошибка")
+
+
+@router.callback_query(F.data.startswith("pay_stars:"))
+async def process_stars_payment(callback: CallbackQuery, session: AsyncSession):
+    """Обработка оплаты через Telegram Stars"""
+    try:
+        lesson_id = int(callback.data.split(":")[1])
+        
+        lesson_service = LessonService(session)
+        lesson = await lesson_service.get_lesson_by_id(lesson_id)
+        
+        if not lesson:
+            await callback.answer("❌ Урок не найден")
+            return
+        
+        from services.currency import CurrencyService
+        usd_price = CurrencyService.format_usd_price(lesson.price_usd)
+        
+        # Создаем инвойс
+        payment_service = PaymentService(session, callback.bot)
+        
         invoice_created = await payment_service.create_invoice(
             user_id=callback.from_user.id,
             lesson_id=lesson_id,
-            lesson_title=lesson_data["title"],
-            lesson_description=f"Доступ к уроку: {lesson_data['description'][:100]}...",
-            price_stars=lesson_data["price_stars"]
+            lesson_title=lesson.title,
+            lesson_description=f"Доступ к уроку: {lesson.description[:100]}...",
+            price_stars=lesson.price_stars,
+            price_usd=lesson.price_usd
         )
         
         if invoice_created:
-            await callback.answer("💳 Инвойс отправлен! Проверьте чат с ботом.")
+            await callback.answer("💳 Инвойс отправлен!")
             
-            # Уведомление о процессе оплаты
             payment_info_text = f"""
-💳 <b>Оплата урока</b>
+💳 <b>Инвойс создан</b>
 
-📚 <b>Урок:</b> {lesson_data['title']}
-💰 <b>Сумма:</b> ⭐ {lesson_data['price_stars']} звезд
+📚 <b>Урок:</b> {lesson.title}
+💰 <b>Цена:</b> {usd_price}
+⭐ <b>К оплате:</b> {lesson.price_stars} Telegram Stars
 
 🔄 <b>Статус:</b> Ожидание оплаты...
 
-<i>Инвойс отправлен в чат. Следуйте инструкциям для завершения оплаты.</i>
-
-💡 <b>Что произойдет после оплаты:</b>
-• Мгновенное получение доступа к уроку
-• Урок появится в разделе "Мои покупки"
-• Возможность просмотра в любое время
+<i>Telegram автоматически конвертирует {usd_price} в {lesson.price_stars} звезд. Следуйте инструкциям в чате для завершения оплаты.</i>
 """
             
+            from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
             payment_keyboard = InlineKeyboardMarkup(inline_keyboard=[
                 [InlineKeyboardButton(text="👤 Мои покупки", callback_data="my_purchases")],
                 [InlineKeyboardButton(text="📚 К каталогу", callback_data="catalog")],
@@ -96,15 +143,14 @@ async def process_payment(callback: CallbackQuery, session: AsyncSession, state:
                 payment_info_text,
                 reply_markup=payment_keyboard
             )
-            
         else:
-            await callback.answer("❌ Ошибка при создании инвойса. Попробуйте позже.")
-            
+            await callback.answer("❌ Ошибка при создании инвойса")
+        
     except (ValueError, IndexError):
-        await callback.answer("❌ Некорректные данные для оплаты")
+        await callback.answer("❌ Некорректные данные")
     except Exception as e:
-        logger.error(f"Ошибка при обработке платежа: {e}")
-        await callback.answer("❌ Произошла ошибка при инициации платежа")
+        logger.error(f"Ошибка при оплате через Stars: {e}")
+        await callback.answer("❌ Произошла ошибка")
 
 
 @router.pre_checkout_query()
@@ -162,12 +208,15 @@ async def process_successful_payment(message: Message, session: AsyncSession):
             lesson = await lesson_service.get_lesson_by_id(purchase.lesson_id)
             
             if lesson:
+                from services.currency import CurrencyService
+                usd_price = CurrencyService.format_usd_price(lesson.price_usd)
+                
                 # Уведомление об успешной покупке
                 success_text = f"""
 🎉 <b>Платеж успешно завершен!</b>
 
 ✅ <b>Урок приобретен:</b> {lesson.title}
-💰 <b>Оплачено:</b> ⭐ {purchase.amount_stars} звезд
+💰 <b>Оплачено:</b> {usd_price}
 📅 <b>Дата покупки:</b> {purchase.purchase_date.strftime('%d.%m.%Y %H:%M')}
 
 🚀 <b>Урок уже доступен!</b>

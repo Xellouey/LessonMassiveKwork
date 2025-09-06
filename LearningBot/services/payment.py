@@ -28,7 +28,8 @@ class PaymentService:
         lesson_id: int, 
         lesson_title: str, 
         lesson_description: str,
-        price_stars: int
+        price_stars: int,
+        price_usd: float = 0.0
     ) -> bool:
         """
         Создание инвойса для оплаты урока через Telegram Stars
@@ -42,11 +43,14 @@ class PaymentService:
             # Формирование payload для отслеживания платежа
             payload = f"lesson_{lesson_id}_{user_id}_{int(datetime.now(timezone.utc).timestamp())}"
             
+            from services.currency import CurrencyService
+            usd_display = CurrencyService.format_usd_price(price_usd) if price_usd > 0 else f"⭐ {price_stars}"
+            
             # Создание инвойса
             await self.bot.send_invoice(
                 chat_id=user_id,
                 title=lesson_title,
-                description=lesson_description,
+                description=f"{lesson_description}\n\nЦена: {usd_display}",
                 payload=payload,
                 provider_token="",  # Пустой для Telegram Stars
                 currency="XTR",  # Telegram Stars
@@ -71,7 +75,7 @@ class PaymentService:
                 is_flexible=False
             )
             
-            logger.info(f"Инвойс создан для пользователя {user_id}, урок {lesson_id}, цена {price_stars} звезд")
+            logger.info(f"Инвойс создан для пользователя {user_id}, урок {lesson_id}, цена {usd_display} ({price_stars} звезд)")
             return True
             
         except Exception as e:

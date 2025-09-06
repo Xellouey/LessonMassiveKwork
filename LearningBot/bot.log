@@ -8950,3 +8950,244 @@ FROM lessons ORDER BY lessons.created_at DESC
 2025-09-05 22:22:25,436 - root - INFO - ✅ Бот остановлен
 2025-09-05 22:22:25,436 - aiogram.dispatcher - INFO - Polling stopped for bot @aishoping_Bot id=8461093373 - 'AiShop'
 2025-09-05 22:22:25,438 - root - INFO - 👋 Получен сигнал остановки от пользователя
+2025-09-05 22:22:33,111 - root - INFO - 🔄 Запуск в режиме polling...
+2025-09-05 22:22:33,112 - root - INFO - 🚀 Запуск Learning Bot...
+2025-09-05 22:22:33,125 - root - INFO - ✅ База данных инициализирована
+2025-09-05 22:22:33,125 - root - INFO - ✅ Бот запущен и готов к работе!
+2025-09-05 22:22:33,125 - aiogram.dispatcher - INFO - Start polling
+2025-09-05 22:22:33,772 - aiogram.dispatcher - INFO - Run polling for bot @aishoping_Bot id=8461093373 - 'AiShop'
+2025-09-05 22:23:38,668 - services.user - INFO - User 897676474 action: main_menu (lesson: None)
+2025-09-05 22:23:40,848 - aiogram.event - INFO - Update id=708446086 is handled. Duration 2226 ms by bot id=8461093373
+2025-09-05 22:23:45,636 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=897676474, is_admin_db=True, admin=<Admin(id=2, user_id=897676474, username=dmitriy_mityuk)>
+2025-09-05 22:23:46,378 - aiogram.event - INFO - Update id=708446087 is handled. Duration 750 ms by bot id=8461093373
+2025-09-05 22:33:17,439 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 22:33:19,647 - aiogram.event - INFO - Update id=708446088 is handled. Duration 2221 ms by bot id=8461093373
+2025-09-05 22:38:20,516 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-05 22:38:22,623 - aiogram.event - INFO - Update id=708446089 is handled. Duration 2143 ms by bot id=8461093373
+2025-09-05 22:38:34,513 - services.user - INFO - User 494482943 action: start_command (lesson: None)
+2025-09-05 22:38:35,211 - handlers.user.start - INFO - Пользователь 494482943 (egorbannikov) зарегистрирован
+2025-09-05 22:38:35,212 - aiogram.event - INFO - Update id=708446090 is handled. Duration 735 ms by bot id=8461093373
+2025-09-05 22:38:56,430 - services.user - INFO - User 494482943 action: view_catalog (lesson: None)
+2025-09-05 22:38:58,593 - aiogram.event - INFO - Update id=708446091 is handled. Duration 2197 ms by bot id=8461093373
+2025-09-05 22:39:01,314 - services.user - INFO - User 494482943 action: view_category (lesson: None)
+2025-09-05 22:39:02,686 - aiogram.event - INFO - Update id=708446092 is handled. Duration 1406 ms by bot id=8461093373
+2025-09-05 22:39:04,401 - services.user - INFO - User 494482943 action: view_category (lesson: None)
+2025-09-05 22:39:06,619 - aiogram.event - INFO - Update id=708446093 is handled. Duration 2252 ms by bot id=8461093373
+2025-09-05 22:39:13,558 - services.user - INFO - User 494482943 action: view_lesson_detail (lesson: 9)
+2025-09-05 22:39:14,878 - aiogram.event - INFO - Update id=708446094 is handled. Duration 1363 ms by bot id=8461093373
+2025-09-05 22:39:20,280 - services.user - INFO - User 494482943 action: view_lesson_preview (lesson: 9)
+2025-09-05 22:39:21,622 - aiogram.event - INFO - Update id=708446095 is handled. Duration 1381 ms by bot id=8461093373
+2025-09-05 22:39:30,660 - services.user - INFO - User 494482943 action: view_catalog (lesson: None)
+2025-09-05 22:39:31,988 - aiogram.event - INFO - Update id=708446096 is handled. Duration 1358 ms by bot id=8461093373
+2025-09-05 22:39:35,084 - services.user - INFO - User 494482943 action: view_category (lesson: None)
+2025-09-05 22:39:36,390 - aiogram.event - INFO - Update id=708446097 is handled. Duration 1336 ms by bot id=8461093373
+2025-09-05 22:39:42,560 - services.user - INFO - User 494482943 action: view_lesson_detail (lesson: 9)
+2025-09-05 22:39:43,875 - aiogram.event - INFO - Update id=708446098 is handled. Duration 1366 ms by bot id=8461093373
+2025-09-05 22:41:59,346 - services.user - INFO - User 494482943 action: view_catalog (lesson: None)
+2025-09-05 22:42:01,527 - aiogram.event - INFO - Update id=708446099 is handled. Duration 2208 ms by bot id=8461093373
+2025-09-05 22:42:02,696 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-05 22:42:04,106 - aiogram.event - INFO - Update id=708446100 is handled. Duration 1446 ms by bot id=8461093373
+2025-09-05 22:42:16,333 - services.user - INFO - User 494482943 action: view_free_lessons (lesson: None)
+2025-09-05 22:42:17,765 - aiogram.event - INFO - Update id=708446101 is handled. Duration 1457 ms by bot id=8461093373
+2025-09-05 22:43:10,298 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-05 22:43:12,456 - aiogram.event - INFO - Update id=708446102 is handled. Duration 2193 ms by bot id=8461093373
+2025-09-05 22:44:45,171 - services.user - INFO - User 494482943 action: view_catalog (lesson: None)
+2025-09-05 22:44:47,381 - aiogram.event - INFO - Update id=708446103 is handled. Duration 2240 ms by bot id=8461093373
+2025-09-05 22:44:57,577 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-05 22:44:58,880 - aiogram.event - INFO - Update id=708446104 is handled. Duration 1339 ms by bot id=8461093373
+2025-09-05 22:45:35,670 - aiogram.event - INFO - Update id=708446105 is handled. Duration 1480 ms by bot id=8461093373
+2025-09-05 22:45:37,582 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-05 22:45:38,940 - aiogram.event - INFO - Update id=708446106 is handled. Duration 1393 ms by bot id=8461093373
+2025-09-05 22:45:39,378 - services.user - INFO - User 494482943 action: view_catalog (lesson: None)
+2025-09-05 22:45:40,851 - aiogram.event - INFO - Update id=708446107 is handled. Duration 1503 ms by bot id=8461093373
+2025-09-05 22:46:08,221 - services.user - INFO - User 494482943 action: view_category (lesson: None)
+2025-09-05 22:46:10,331 - aiogram.event - INFO - Update id=708446108 is handled. Duration 2141 ms by bot id=8461093373
+2025-09-05 22:46:30,512 - services.user - INFO - User 494482943 action: view_catalog (lesson: None)
+2025-09-05 22:46:32,671 - aiogram.event - INFO - Update id=708446109 is handled. Duration 2186 ms by bot id=8461093373
+2025-09-05 22:47:32,280 - services.user - INFO - User 494482943 action: view_category (lesson: None)
+2025-09-05 22:47:34,400 - aiogram.event - INFO - Update id=708446110 is handled. Duration 2150 ms by bot id=8461093373
+2025-09-05 22:47:50,878 - services.user - INFO - User 494482943 action: view_lesson_detail (lesson: 9)
+2025-09-05 22:47:53,081 - aiogram.event - INFO - Update id=708446111 is handled. Duration 2234 ms by bot id=8461093373
+2025-09-05 22:51:42,146 - services.user - INFO - User 494482943 action: view_lesson_preview (lesson: 9)
+2025-09-05 22:51:44,487 - aiogram.event - INFO - Update id=708446112 is handled. Duration 2372 ms by bot id=8461093373
+2025-09-05 22:52:08,377 - services.user - INFO - User 494482943 action: view_lesson_detail (lesson: 9)
+2025-09-05 22:52:10,888 - aiogram.event - INFO - Update id=708446113 is handled. Duration 2552 ms by bot id=8461093373
+2025-09-05 22:52:47,688 - services.user - INFO - User 494482943 action: view_lesson_preview (lesson: 9)
+2025-09-05 22:52:50,019 - aiogram.event - INFO - Update id=708446114 is handled. Duration 2362 ms by bot id=8461093373
+2025-09-05 22:53:16,185 - services.user - INFO - User 494482943 action: view_lesson_detail (lesson: 9)
+2025-09-05 22:53:18,466 - aiogram.event - INFO - Update id=708446115 is handled. Duration 2320 ms by bot id=8461093373
+2025-09-05 22:53:19,667 - services.user - INFO - User 494482943 action: view_lesson_info (lesson: 9)
+2025-09-05 22:53:21,014 - aiogram.event - INFO - Update id=708446116 is handled. Duration 1384 ms by bot id=8461093373
+2025-09-05 22:53:24,551 - services.user - INFO - User 494482943 action: view_catalog (lesson: None)
+2025-09-05 22:53:25,860 - aiogram.event - INFO - Update id=708446117 is handled. Duration 1340 ms by bot id=8461093373
+2025-09-05 22:53:27,135 - services.user - INFO - User 494482943 action: view_category (lesson: None)
+2025-09-05 22:53:28,478 - aiogram.event - INFO - Update id=708446118 is handled. Duration 1370 ms by bot id=8461093373
+2025-09-05 22:53:29,106 - services.user - INFO - User 494482943 action: view_lesson_detail (lesson: 10)
+2025-09-05 22:53:30,454 - aiogram.event - INFO - Update id=708446119 is handled. Duration 1385 ms by bot id=8461093373
+2025-09-05 22:53:32,846 - services.user - INFO - User 494482943 action: view_lesson_info (lesson: 10)
+2025-09-05 22:53:34,158 - aiogram.event - INFO - Update id=708446120 is handled. Duration 1351 ms by bot id=8461093373
+2025-09-05 22:54:28,224 - services.user - INFO - User 494482943 action: view_lesson_detail (lesson: 10)
+2025-09-05 22:54:30,264 - aiogram.event - INFO - Update id=708446121 is handled. Duration 2077 ms by bot id=8461093373
+2025-09-05 22:55:34,250 - services.user - INFO - User 494482943 action: initiate_purchase (lesson: 10)
+2025-09-05 22:55:36,294 - aiogram.event - INFO - Update id=708446122 is handled. Duration 2081 ms by bot id=8461093373
+2025-09-05 22:55:41,279 - services.user - INFO - User 494482943 action: payment_initiated (lesson: 10)
+2025-09-05 22:55:41,933 - services.payment - INFO - Инвойс создан для пользователя 494482943, урок 10, цена 5 звезд
+2025-09-05 22:55:43,377 - aiogram.event - INFO - Update id=708446123 is handled. Duration 2137 ms by bot id=8461093373
+2025-09-05 22:57:28,083 - services.user - INFO - User 494482943 action: start_command (lesson: None)
+2025-09-05 22:57:29,531 - handlers.user.start - INFO - Пользователь 494482943 (egorbannikov) зарегистрирован
+2025-09-05 22:57:29,532 - aiogram.event - INFO - Update id=708446124 is handled. Duration 1473 ms by bot id=8461093373
+2025-09-05 22:57:39,159 - aiogram.event - INFO - Update id=708446125 is handled. Duration 700 ms by bot id=8461093373
+2025-09-05 22:59:28,446 - services.user - INFO - Создан новый пользователь: 747996749 (KarinaShag)
+2025-09-05 22:59:28,446 - services.user - INFO - User 747996749 action: start_command (lesson: None)
+2025-09-05 22:59:29,910 - handlers.user.start - INFO - Пользователь 747996749 (KarinaShag) зарегистрирован
+2025-09-05 22:59:29,911 - aiogram.event - INFO - Update id=708446126 is handled. Duration 1484 ms by bot id=8461093373
+2025-09-05 22:59:39,871 - services.user - INFO - User 747996749 action: view_catalog (lesson: None)
+2025-09-05 22:59:41,770 - aiogram.event - INFO - Update id=708446127 is handled. Duration 1918 ms by bot id=8461093373
+2025-09-05 22:59:46,237 - services.user - INFO - User 747996749 action: view_category (lesson: None)
+2025-09-05 22:59:47,554 - aiogram.event - INFO - Update id=708446128 is handled. Duration 1338 ms by bot id=8461093373
+2025-09-05 22:59:52,222 - services.user - INFO - User 747996749 action: view_lesson_detail (lesson: 10)
+2025-09-05 22:59:53,635 - aiogram.event - INFO - Update id=708446129 is handled. Duration 1437 ms by bot id=8461093373
+2025-09-05 22:59:55,342 - services.user - INFO - User 747996749 action: initiate_purchase (lesson: 10)
+2025-09-05 22:59:56,733 - aiogram.event - INFO - Update id=708446130 is handled. Duration 1418 ms by bot id=8461093373
+2025-09-05 22:59:57,285 - services.user - INFO - User 747996749 action: payment_initiated (lesson: 10)
+2025-09-05 22:59:57,970 - services.payment - INFO - Инвойс создан для пользователя 747996749, урок 10, цена 5 звезд
+2025-09-05 22:59:59,601 - aiogram.event - INFO - Update id=708446131 is handled. Duration 2342 ms by bot id=8461093373
+2025-09-05 23:00:06,607 - services.user - INFO - User 747996749 action: main_menu (lesson: None)
+2025-09-05 23:00:07,918 - aiogram.event - INFO - Update id=708446132 is handled. Duration 1337 ms by bot id=8461093373
+2025-09-05 23:44:53,636 - aiogram.event - INFO - Update id=708446133 is not handled. Duration 25 ms by bot id=8461093373
+2025-09-05 23:44:59,657 - aiogram.event - INFO - Update id=708446134 is not handled. Duration 21 ms by bot id=8461093373
+2025-09-05 23:45:05,957 - aiogram.event - INFO - Update id=708446135 is not handled. Duration 20 ms by bot id=8461093373
+2025-09-05 23:45:10,473 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-05 23:45:12,605 - aiogram.event - INFO - Update id=708446136 is handled. Duration 2168 ms by bot id=8461093373
+2025-09-05 23:45:17,193 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 23:45:17,895 - aiogram.event - INFO - Update id=708446137 is handled. Duration 718 ms by bot id=8461093373
+2025-09-05 23:45:21,938 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 23:45:23,347 - aiogram.event - INFO - Update id=708446138 is handled. Duration 1420 ms by bot id=8461093373
+2025-09-05 23:45:24,934 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 23:45:26,319 - aiogram.event - INFO - Update id=708446139 is handled. Duration 1401 ms by bot id=8461093373
+2025-09-05 23:45:35,216 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 23:45:35,903 - aiogram.event - INFO - Update id=708446140 is handled. Duration 702 ms by bot id=8461093373
+2025-09-05 23:45:43,118 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 23:45:43,970 - aiogram.event - INFO - Update id=708446141 is handled. Duration 866 ms by bot id=8461093373
+2025-09-05 23:45:47,335 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 23:45:47,988 - aiogram.event - INFO - Update id=708446142 is handled. Duration 668 ms by bot id=8461093373
+2025-09-05 23:45:59,710 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 23:45:59,727 - services.category - INFO - Создана категория: 0 (ID: 5)
+2025-09-05 23:45:59,728 - services.category - INFO - Создана новая категория: 0
+2025-09-05 23:46:00,411 - aiogram.event - INFO - Update id=708446143 is handled. Duration 715 ms by bot id=8461093373
+2025-09-05 23:46:03,864 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 23:46:05,435 - aiogram.event - INFO - Update id=708446144 is handled. Duration 1587 ms by bot id=8461093373
+2025-09-05 23:46:22,422 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 23:46:22,424 - handlers.admin.lessons - ERROR - 🚀 MEDIA HANDLER TRIGGERED: content_type=ContentType.VIDEO, step=content, expected_content=video, user_id=494482943
+2025-09-05 23:46:22,424 - handlers.admin.lessons - ERROR - MEDIA UPLOAD: Expected=video, Received=ContentType.VIDEO
+2025-09-05 23:46:22,424 - handlers.admin.lessons - ERROR - MEDIA UPLOAD: Video processed - file_id=BAACAgIAAxkBAANVaLtaLBz6cRjJN23bNqrBqvQuAAHJAAJDdQACnqnhSUxMYEBms5aINgQ, duration=10
+2025-09-05 23:46:22,424 - handlers.admin.lessons - ERROR - MEDIA UPLOAD: Data saved, calling finalize_lesson_creation
+2025-09-05 23:46:22,441 - services.lesson - INFO - Создан новый урок 11: free les
+2025-09-05 23:46:23,962 - aiogram.event - INFO - Update id=708446145 is handled. Duration 1556 ms by bot id=8461093373
+2025-09-05 23:46:34,104 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-05 23:46:35,430 - aiogram.event - INFO - Update id=708446146 is handled. Duration 1341 ms by bot id=8461093373
+2025-09-05 23:46:37,538 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-05 23:46:38,865 - aiogram.event - INFO - Update id=708446147 is handled. Duration 1364 ms by bot id=8461093373
+2025-09-05 23:46:41,193 - services.user - INFO - User 494482943 action: view_free_lessons (lesson: None)
+2025-09-05 23:46:42,908 - aiogram.event - INFO - Update id=708446148 is handled. Duration 1746 ms by bot id=8461093373
+2025-09-05 23:46:46,535 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-05 23:46:47,929 - aiogram.event - INFO - Update id=708446149 is handled. Duration 1430 ms by bot id=8461093373
+2025-09-05 23:46:48,790 - services.user - INFO - User 494482943 action: view_catalog (lesson: None)
+2025-09-05 23:46:50,291 - aiogram.event - INFO - Update id=708446150 is handled. Duration 1533 ms by bot id=8461093373
+2025-09-05 23:46:52,835 - services.user - INFO - User 494482943 action: view_category (lesson: None)
+2025-09-05 23:46:54,248 - aiogram.event - INFO - Update id=708446151 is handled. Duration 1445 ms by bot id=8461093373
+2025-09-05 23:46:56,051 - services.user - INFO - User 494482943 action: view_category (lesson: None)
+2025-09-05 23:46:57,425 - aiogram.event - INFO - Update id=708446152 is handled. Duration 1401 ms by bot id=8461093373
+2025-09-05 23:46:58,616 - services.user - INFO - User 494482943 action: view_lesson_detail (lesson: 11)
+2025-09-05 23:47:00,020 - aiogram.event - INFO - Update id=708446153 is handled. Duration 1441 ms by bot id=8461093373
+2025-09-05 23:47:02,100 - services.user - INFO - User 494482943 action: open_lesson (lesson: 11)
+2025-09-05 23:47:04,164 - aiogram.event - INFO - Update id=708446154 is handled. Duration 2107 ms by bot id=8461093373
+2025-09-05 23:47:07,319 - services.user - INFO - User 494482943 action: lesson_completed (lesson: None)
+2025-09-05 23:47:08,716 - aiogram.event - INFO - Update id=708446155 is handled. Duration 1429 ms by bot id=8461093373
+2025-09-06 00:23:48,135 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-06 00:23:50,404 - aiogram.event - INFO - Update id=708446156 is handled. Duration 2328 ms by bot id=8461093373
+2025-09-06 00:23:53,158 - aiogram.event - INFO - Update id=708446157 is handled. Duration 746 ms by bot id=8461093373
+2025-09-06 00:24:09,719 - aiogram.event - INFO - Update id=708446158 is not handled. Duration 40 ms by bot id=8461093373
+2025-09-06 00:24:13,827 - aiogram.event - INFO - Update id=708446159 is not handled. Duration 40 ms by bot id=8461093373
+2025-09-06 00:24:17,438 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-06 00:24:19,893 - aiogram.event - INFO - Update id=708446160 is handled. Duration 2515 ms by bot id=8461093373
+2025-09-06 00:24:20,580 - aiogram.event - INFO - Update id=708446161 is handled. Duration 2301 ms by bot id=8461093373
+2025-09-06 00:24:26,357 - aiogram.event - INFO - Update id=708446162 is handled. Duration 1345 ms by bot id=8461093373
+2025-09-06 00:24:29,189 - services.user - INFO - User 494482943 action: settings (lesson: None)
+2025-09-06 00:24:30,646 - aiogram.event - INFO - Update id=708446163 is handled. Duration 2177 ms by bot id=8461093373
+2025-09-06 00:24:33,294 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-06 00:24:34,813 - aiogram.event - INFO - Update id=708446164 is handled. Duration 1573 ms by bot id=8461093373
+2025-09-06 00:24:39,558 - aiogram.event - INFO - Update id=708446165 is handled. Duration 760 ms by bot id=8461093373
+2025-09-06 00:24:43,140 - aiogram.event - INFO - Update id=708446166 is handled. Duration 1463 ms by bot id=8461093373
+2025-09-06 00:24:45,391 - aiogram.event - INFO - Update id=708446167 is handled. Duration 1515 ms by bot id=8461093373
+2025-09-06 00:24:46,854 - services.user - INFO - User 494482943 action: settings (lesson: None)
+2025-09-06 00:24:48,265 - aiogram.event - INFO - Update id=708446168 is handled. Duration 2114 ms by bot id=8461093373
+2025-09-06 00:24:54,043 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-06 00:24:55,529 - aiogram.event - INFO - Update id=708446169 is handled. Duration 1547 ms by bot id=8461093373
+2025-09-06 00:24:58,304 - aiogram.event - INFO - Update id=708446170 is handled. Duration 826 ms by bot id=8461093373
+2025-09-06 00:25:29,278 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-06 00:25:31,322 - aiogram.event - INFO - Update id=708446171 is handled. Duration 2094 ms by bot id=8461093373
+2025-09-06 00:25:37,316 - aiogram.event - INFO - Update id=708446172 is handled. Duration 805 ms by bot id=8461093373
+2025-09-06 00:28:17,425 - services.user - INFO - User 494482943 action: main_menu (lesson: None)
+2025-09-06 00:28:19,623 - aiogram.event - INFO - Update id=708446173 is handled. Duration 2255 ms by bot id=8461093373
+2025-09-06 00:28:28,871 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:28:29,550 - aiogram.event - INFO - Update id=708446174 is handled. Duration 698 ms by bot id=8461093373
+2025-09-06 00:28:32,154 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:28:33,571 - aiogram.event - INFO - Update id=708446175 is handled. Duration 1436 ms by bot id=8461093373
+2025-09-06 00:28:48,732 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:28:51,066 - aiogram.event - INFO - Update id=708446176 is handled. Duration 2356 ms by bot id=8461093373
+2025-09-06 00:28:55,394 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:28:56,086 - aiogram.event - INFO - Update id=708446177 is handled. Duration 713 ms by bot id=8461093373
+2025-09-06 00:29:52,086 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:29:53,556 - aiogram.event - INFO - Update id=708446178 is handled. Duration 1488 ms by bot id=8461093373
+2025-09-06 00:29:56,021 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:29:57,346 - aiogram.event - INFO - Update id=708446179 is handled. Duration 1345 ms by bot id=8461093373
+2025-09-06 00:30:02,083 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:30:03,425 - aiogram.event - INFO - Update id=708446180 is handled. Duration 1378 ms by bot id=8461093373
+2025-09-06 00:30:08,199 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:30:09,538 - aiogram.event - INFO - Update id=708446181 is handled. Duration 1362 ms by bot id=8461093373
+2025-09-06 00:30:13,609 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:30:15,076 - aiogram.event - INFO - Update id=708446182 is handled. Duration 1503 ms by bot id=8461093373
+2025-09-06 00:30:21,773 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:30:21,798 - services.broadcast - INFO - Создана новая рассылка ID 4 от админа 494482943
+2025-09-06 00:30:23,118 - aiogram.event - INFO - Update id=708446183 is handled. Duration 1382 ms by bot id=8461093373
+2025-09-06 00:30:29,244 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:30:32,347 - services.broadcast - WARNING - Не удалось отправить сообщение пользователю 123456789: Telegram server says - Bad Request: chat not found
+2025-09-06 00:30:34,399 - services.broadcast - INFO - Рассылка 4 отправлена: 3/4 успешно
+2025-09-06 00:30:35,852 - aiogram.event - INFO - Update id=708446184 is handled. Duration 6643 ms by bot id=8461093373
+2025-09-06 00:31:26,455 - services.user - INFO - User 494482943 action: start_command (lesson: None)
+2025-09-06 00:31:28,040 - handlers.user.start - INFO - Пользователь 494482943 (egorbannikov) зарегистрирован
+2025-09-06 00:31:28,041 - aiogram.event - INFO - Update id=708446185 is handled. Duration 1626 ms by bot id=8461093373
+2025-09-06 00:31:38,604 - aiogram.event - INFO - Update id=708446186 is handled. Duration 822 ms by bot id=8461093373
+2025-09-06 00:31:44,426 - aiogram.event - INFO - Update id=708446187 is not handled. Duration 38 ms by bot id=8461093373
+2025-09-06 00:31:57,944 - aiogram.event - INFO - Update id=708446188 is handled. Duration 2252 ms by bot id=8461093373
+2025-09-06 00:32:48,542 - handlers.user.profile - ERROR - Ошибка при показе профиля: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-06 00:32:49,262 - aiogram.event - INFO - Update id=708446189 is handled. Duration 3064 ms by bot id=8461093373
+2025-09-06 00:32:52,198 - handlers.user.profile - ERROR - Ошибка при показе профиля: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-09-06 00:32:52,948 - aiogram.event - INFO - Update id=708446190 is handled. Duration 2357 ms by bot id=8461093373
+2025-09-06 00:33:08,595 - services.user - INFO - User 494482943 action: view_catalog (lesson: None)
+2025-09-06 00:33:10,967 - aiogram.event - INFO - Update id=708446191 is handled. Duration 2419 ms by bot id=8461093373
+2025-09-06 00:33:33,310 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:33:36,022 - aiogram.event - INFO - Update id=708446192 is handled. Duration 2730 ms by bot id=8461093373
+2025-09-06 00:33:43,363 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:33:44,855 - aiogram.event - INFO - Update id=708446193 is handled. Duration 1511 ms by bot id=8461093373
+2025-09-06 00:33:46,853 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:33:48,341 - aiogram.event - INFO - Update id=708446194 is handled. Duration 1517 ms by bot id=8461093373
+2025-09-06 00:33:51,255 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:33:52,652 - aiogram.event - INFO - Update id=708446195 is handled. Duration 1416 ms by bot id=8461093373
+2025-09-06 00:33:54,420 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:33:55,936 - aiogram.event - INFO - Update id=708446196 is handled. Duration 1537 ms by bot id=8461093373
+2025-09-06 00:33:56,672 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:33:58,120 - aiogram.event - INFO - Update id=708446197 is handled. Duration 1467 ms by bot id=8461093373
+2025-09-06 00:33:58,936 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:34:00,509 - aiogram.event - INFO - Update id=708446198 is handled. Duration 1592 ms by bot id=8461093373
+2025-09-06 00:34:01,790 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:34:03,288 - aiogram.event - INFO - Update id=708446199 is handled. Duration 1528 ms by bot id=8461093373
+2025-09-06 00:34:05,569 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:34:06,977 - aiogram.event - INFO - Update id=708446200 is handled. Duration 1421 ms by bot id=8461093373
+2025-09-06 00:34:08,150 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:34:09,535 - aiogram.event - INFO - Update id=708446201 is handled. Duration 1404 ms by bot id=8461093373
+2025-09-06 00:34:12,646 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:34:14,053 - aiogram.event - INFO - Update id=708446202 is handled. Duration 1437 ms by bot id=8461093373
+2025-09-06 00:34:16,437 - middlewares.admin - DEBUG - AdminOnlyMiddleware: user_id=494482943, is_admin_db=True, admin=<Admin(id=3, user_id=494482943, username=egorbannikov)>
+2025-09-06 00:34:17,838 - aiogram.event - INFO - Update id=708446203 is handled. Duration 1418 ms by bot id=8461093373

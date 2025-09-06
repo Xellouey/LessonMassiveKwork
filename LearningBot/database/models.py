@@ -59,6 +59,7 @@ class Lesson(Base):
     title: Mapped[str] = mapped_column(String(255), nullable=False)
     description: Mapped[str] = mapped_column(Text, nullable=False)
     price_stars: Mapped[int] = mapped_column(Integer, nullable=False)  # Цена в звездах
+    price_usd: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False, default=0.0)  # Цена в долларах для отображения
     content_type: Mapped[str] = mapped_column(String(50), nullable=False)  # video, photo, document, etc.
     file_id: Mapped[Optional[str]] = mapped_column(String(255), nullable=True)  # Telegram file_id
     duration: Mapped[Optional[int]] = mapped_column(Integer, nullable=True)  # Длительность в секундах
@@ -83,7 +84,7 @@ class Lesson(Base):
         return self.category
     
     def __repr__(self) -> str:
-        return f"<Lesson(id={self.id}, title={self.title}, price={self.price_stars})>"
+        return f"<Lesson(id={self.id}, title={self.title}, price_usd=${self.price_usd}, price_stars={self.price_stars})>"
 
 
 class Purchase(Base):

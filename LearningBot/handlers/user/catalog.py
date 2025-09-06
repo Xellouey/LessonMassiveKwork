@@ -187,7 +187,8 @@ async def show_lessons_list(callback: CallbackQuery, lessons: list, category_nam
             if lesson.is_free:
                 price_text = "🎁 Бесплатно"
             else:
-                price_text = f"⭐ {lesson.price_stars}"
+                from services.currency import CurrencyService
+                price_text = f"💰 {CurrencyService.format_usd_price(lesson.price_usd)}"
             
             # Длительность
             duration_text = ""

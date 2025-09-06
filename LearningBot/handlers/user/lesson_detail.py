@@ -70,7 +70,9 @@ async def show_lesson_detail(callback: CallbackQuery, session: AsyncSession):
         if lesson.is_free:
             price_text = "\n💰 <b>Цена:</b> 🎁 Бесплатно"
         else:
-            price_text = f"\n💰 <b>Цена:</b> ⭐ {lesson.price_stars} звезд"
+            from services.currency import CurrencyService
+            usd_price = CurrencyService.format_usd_price(lesson.price_usd)
+            price_text = f"\n💰 <b>Цена:</b> {usd_price}"
         
         # Статус доступа
         if has_access:
@@ -161,8 +163,10 @@ async def show_lesson_preview(callback: CallbackQuery, session: AsyncSession):
                 callback_data=f"get_free:{lesson_id}"
             ))
         else:
+            from services.currency import CurrencyService
+            usd_price = CurrencyService.format_usd_price(lesson.price_usd)
             builder.row(InlineKeyboardButton(
-                text=f"💳 Купить за ⭐ {lesson.price_stars}", 
+                text=f"💳 Купить за {usd_price}", 
                 callback_data=f"buy_lesson:{lesson_id}"
             ))
         
